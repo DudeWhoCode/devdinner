@@ -7,7 +7,8 @@ layout: default
 
 <div class='keyline-all round pad2 col12 clearfix'>
   <div class='col8 pad0y'>
-    <strong>Join us:</strong> <span class='quiet'>{{page.date | date:"%A, %b %d %Y"}}</span>
+    <!-- <strong>Join us:</strong> <span class='quiet'>{{page.date | date:"%A, %b %d %Y"}}</span> -->
+    <strong>Join us on:</strong> <span class='quiet'>{{item.date | date:"%A, %b %d %Y"}}</span> </br> <strong>Venue: </strong> <a href={{item.location}} target="_blank">{{item.venue}}</a>
   </div>
   <div class='col4'>
     <a class='button fill-orange block' href='{{page.rsvp}}'>RSVP</a>
