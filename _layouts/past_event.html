@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h2>{{page.title}}</h2>
+{{content}}
+
+<div class='keyline-all round pad2 col12 clearfix'>
+  <div class='col8 pad0y'>
+    <strong>Happened on:</strong> <span class='quiet'>{{item.date | date:"%A, %b %d %Y"}}</span> </br> <strong>Venue: </strong> <a href={{item.location}} target="_blank">{{item.venue}}</a>
+  </div>
+<!--   <div class='col4'>
+    <a class='button fill-orange block' href='{{page.rsvp}}'>RSVP</a>
+  </div> -->
+</div>
+

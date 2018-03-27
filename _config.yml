@@ -1,0 +1,14 @@
+baseurl: 
+permalink: pretty
+future: true
+markdown: kramdown
+paginate: 5
+repo: devdinner-website
+github_org: devdinner
+maptime:
+  chapter: DevDinner
+  twitter: DevDinnerClub
+  #disqus: YOUR DISQUS USERNAME
+
+gems:
+  - jekyll-feed
